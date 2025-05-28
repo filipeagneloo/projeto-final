@@ -1,0 +1,365 @@
+/* Imports de Fontes*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700;1,900&display=swap");
+/*Imports de Fontes*/
+:root {
+  --main-color: #8c00ff;
+  --texto-color: #faf9f7;
+  --titulos-color: #000000;
+  --Button-color: #ff8c00;
+
+  /* Cores extras */
+  --color-01: #c00000;
+  --color-02: #009539;
+  --color-03: #7950f2;
+  --color-04: #fc0fc0;
+  --color-05: #ffdf00;
+  --color-06: #144a30;
+  --color-07: #a1e02b;
+  /* Cores extras*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--texto-color);
+}
+
+header {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.1rem;
+  background-color: #4e1e75;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 100;
+  height: 12vh;
+  font-size: 11px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  
+}
+
+.logo {
+  display:flex;
+  letter-spacing: 3px;
+  margin-top: 0;
+  top: 0;
+  padding: 0;
+  justify-items: end;
+}
+
+.menu {
+  letter-spacing: 50px;
+  margin-left: 50px;
+  text-align: center;
+  font-family: Geneva;
+  font-size: 15px;
+}
+
+.menu a {
+ 
+  font-size: 1.2rem;
+  color: var(--texto-color);
+  padding: 0.5rem 1rem;
+  transition: 0.4s;
+  margin-top: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+
+  
+}
+
+.menu a:hover {
+  color: var(--Button-color);
+}
+
+section {
+  min-width: 100vh;
+  padding: 6rem 6rem 2rem;
+}
+
+span {
+  color: var(--main-color);
+}
+
+.Home {
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-content h1 {
+  color: var(--color-05);
+  font-size: 45px;
+}
+
+.home-img {
+  left: 50cm;
+  top: 0;
+  border-radius: 30px;
+  top: 70cm;
+  filter: drop-shadow(10px 0 30px var(--texto-color));
+}
+
+.Quem-somos h2 {
+  text-align: center;
+  font-size: 50px;
+  color: var(--texto-color);
+}
+
+.Quem-somos p {
+  display: flex;
+  float: inline-end;
+  width: 445px;
+  margin: 0%;
+  text-align: center;
+  padding-top: 20px;
+  padding: 2%;
+}
+
+.Quem-somos-img {
+  margin: 5px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  display: flex;
+  left: auto;
+  width: 385px;
+  height: 435px;
+  object-fit: contain;
+  position: relative;
+  padding: 0%;
+}
+
+.titulo-voluntario h3 {
+  margin: 0%;
+  color: var(--color-05);
+  font-size: 50px;
+  text-align: justify;
+  text-align: center;
+}
+
+.text-conteudo p {
+  margin: 0%;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.img-voluntario {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 800;
+  justify-items: center;
+}
+
+.Adote {
+    justify-content: center;
+    text-align: center;
+    width: 98%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form{
+    
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    justify-content: space-around; 
+}
+
+.form .imput-group{
+   
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+    background-color:#fff ;
+    border: none;
+    border-radius: 100px;
+    font-weight: 800;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    text-align:center;
+    justify-content: center;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+}
+
+footer {
+  width: 100;
+  color: var(--color-06);
+  padding: 30px 0;
+}
+.redes-sociais {
+  text-align: center;
+  margin: 1.8rem 1rem 1.8rem 0;
+  padding: 2%;
+  font-size: 2rem;
+  transition: 0.5s ease;
+}
+.col h1 {
+  font-size: 40px;
+}
+
+.redes-sociais h2 {
+  font-size: 40px;
+}
+
+.local {
+  text-align: center;
+  display: block;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  gap: 30px;
+}
+
+.mapa iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.mapa h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.menu-responsivo{
+  display: none;
+}
+
+.menu-hamburguer{
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3{
+  width: 2rem;
+  height: 0.3rem;
+  background-color: var(--texto-color);
+  margin: 0.4rem 0;
+  transition:  0.3s ease;
+}
+
+.change .bar1{
+  transform: translate(0, 0.65rem) retate (-45deg);
+}
+.change .bar2{
+  opacity: 0;
+}
+
+.change .bar3{
+    transform: translate(0, 0.65rem) retate (-45deg);
+  }
+
+
+@media (max-width: 1020px){
+
+  .menu-hamburguer{
+    display: block;
+  }
+
+  .menu{
+    display: none;  
+  }
+
+  .menu-hamburguer{
+    display: block;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  
+      
+  }
+
+  section{
+    padding: 6rem 2.5rem;
+  }
+
+  .Home, .home-content{
+    flex-direction: column;
+    gap: 1.2rem
+
+  }
+
+  .home-img{
+   
+    height: 250%;
+    text-align: center;
+  }
+
+  .home-content div {
+    text-align: center;
+    
+  }
+
+  .home-content h1{
+    font-size: 2.2rem;
+    font-weight: 100;
+    line-height: 1.3;
+  }
+
+  .Quem-somos, .Text-Quem-somos{
+    text-align: center;
+
+  }
+  .Quem-somos, .Quem-somos-img{
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .Voluntário, .text-img-voluntario, .titulo-voluntario{
+    text-align: center;
+    font-size: 200;
+    gap: 1.2rem;
+    padding-bottom: 30px;
+  }
+
+  .img-voluntario{
+    
+    height: 260px;
+    margin-top: 35px;
+  }
+
+
+
+  /* 1 paragrafo do projeto */
+
+
+
+
+}
